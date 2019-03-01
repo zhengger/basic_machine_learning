@@ -1,7 +1,7 @@
 """
 学习内容 1. 机器学习的一些概念 有监督、无监督、泛化能力、过拟合欠拟合(方差和偏差以及各自解决办法)、交叉验证 2. 线性回归的原理 3. 线性回归损失函数、代价函数、目标函数 4. 优化方法(梯度下降法、牛顿法、拟牛顿法等) 5、线性回归的评估指标 6、sklearn参数详解
 """
-## 一:
+## 一 基本概念:
 
 1. 有监督:Supervised Learning 通过标注数据进行学习的方法(回归和分类)
 2. 无监督:Unsupervised Learning 用于学习的数据只有样本，没有标签，那么通过这种无标注数据进行学习的方法(聚类)
@@ -17,8 +17,10 @@
                    ![img](https://images0.cnblogs.com/blog/312753/201403/261738509057108.png)
 3. 代价函数: Cost Function 是定义在整个训练集上的，是所有样本误差的平均，也就是损失函数的平均
 3. 目标函数: Object Function（目标函数 ）定义为：Cost Function + 正则化项
-4. 优化方法: 最小二乘法
-5. 评估指标: 
+4. 优化方法: 梯度下降法
+            ![img](https://images2018.cnblogs.com/blog/697102/201803/697102-20180308101413881-932496454.png)
+5. 评估指标: 均方误差(MSE)
+            ![img](https://file.ai100.com.cn/files/sogou-articles/original/4c81c092-4a9d-4a0a-80ee-1963facd990e/640.png)
 
 ## 三 sklearn参数详解:
 LinearRegression(fit_intercept=True, normalize=False, copy_X=True, n_jobs=None)
