@@ -3,12 +3,12 @@
 """
 ## 一:
 
-1.有监督:Supervised Learning 通过标注数据进行学习的方法
-2.无监督:Unsupervised Learning 用于学习的数据只有样本，没有标签，那么通过这种无标注数据进行学习的方法
-3.泛化能力:Generalization Ability）机器学习算法对新鲜样本的适应能力
-4.过拟合:Overfitting 某模型训练集上指标很好，而在验证/测试集上指标偏低
-5.欠拟合:Underfitting 某模型在训练集上的性能不佳
-6.交叉验证:Cross-Validation 数据集分为训练集和测试集这一步骤。但是不同的是，我们现在只用一个数据作为测试集，其他的数据都作为训练集，并将此步骤重复N次 ![imag](https://pic4.zhimg.com/80/v2-fcb843dd06c15a515d03a543864bbb77_hd.png)
+1. 有监督:Supervised Learning 通过标注数据进行学习的方法
+2. 无监督:Unsupervised Learning 用于学习的数据只有样本，没有标签，那么通过这种无标注数据进行学习的方法
+3. 泛化能力:Generalization Ability）机器学习算法对新鲜样本的适应能力
+4. 过拟合:Overfitting 某模型训练集上指标很好，而在验证/测试集上指标偏低
+5. 欠拟合:Underfitting 某模型在训练集上的性能不佳
+6. 交叉验证:Cross-Validation 数据集分为训练集和测试集这一步骤。但是不同的是，我们现在只用一个数据作为测试集，其他的数据都作为训练集，并将此步骤重复N次 ![imag](https://pic4.zhimg.com/80/v2-fcb843dd06c15a515d03a543864bbb77_hd.png)
 
 ## 二 线性回归:
 1. 原理:
